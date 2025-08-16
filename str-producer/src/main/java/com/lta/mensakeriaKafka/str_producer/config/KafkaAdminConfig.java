@@ -1,6 +1,9 @@
 package com.lta.mensakeriaKafka.str_producer.config;
 
 import org.apache.kafka.clients.admin.AdminClientConfig;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.kafka.config.TopicBuilder;
 import org.springframework.kafka.core.KafkaAdmin;
 import org.springframework.boot.autoconfigure.kafka.KafkaProperties;
